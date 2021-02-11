@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "822757720212",
+    "firebase_url": "https://placepicker-6189b-default-rtdb.firebaseio.com",
+    "project_id": "placepicker-6189b",
+    "storage_bucket": "placepicker-6189b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:822757720212:android:817cdfee313fbc819b7481",
+        "android_client_info": {
+          "package_name": "com.example.placepicker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "822757720212-6vg6onq5kl66onhug0m1gv2h0cclrrki.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.placepicker",
+            "certificate_hash": "52e297d78d724c7e5bbc74d1e64db574f4131f3d"
+          }
+        },
+        {
+          "client_id": "822757720212-p5ij9gakeu1ri62ls5k0bpigcv02bq0h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZG2ha5HqBrRIhYhjsFdWsmd_tR8OUh3c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "822757720212-p5ij9gakeu1ri62ls5k0bpigcv02bq0h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

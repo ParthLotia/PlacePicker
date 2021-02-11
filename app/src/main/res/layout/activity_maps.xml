@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MapsActivity">
+
+
+    <TextView
+        android:id="@+id/txt_source"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Enter Source Location"
+        android:gravity="center|start"
+        android:paddingStart="10dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/txt_dest"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white"
+        android:gravity="center|start"
+        android:hint="Enter Destination Location"
+        android:layout_marginTop="10dp"
+        android:paddingStart="10dp"
+        android:layout_below="@id/txt_source"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:textSize="18sp"/>
+
+
+<!--    <fragment-->
+<!--        android:id="@+id/autocomplete_dest_fragment"-->
+<!--        android:name="com.google.android.libraries.places.widget.AutocompleteSupportFragment"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@id/autocomplete_fragment" />-->
+
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/txt_dest" />
+
+</RelativeLayout>
